@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  margin: 200px;
+  padding: 40px 90px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  border: solid 5px transparent;
+  border-image: linear-gradient(-45deg, #e0b0ff, #76d7c4);
+  border-image-slice: 1;
+  background: linear-gradient(45deg, #e0b0ff, #76d7c4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(-45deg, #e0b0ff, #76d7c4);
+  color: white;
+}
